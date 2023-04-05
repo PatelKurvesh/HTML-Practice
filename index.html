@@ -84,9 +84,25 @@
 <img src="img.png" alt="Workplace" usemap="#product">
 
 <map name="product">
-  <area shape="rect" coords="399,249,749,797" alt="Computer" href="book.png">
+  <area shape="rect" coords="399,249,749,797" alt="Computer" href="book.png" onclick="mybook()">
 
-  <area shape="circle" coords="1050,228,60" alt="Coffee" href="coffe.jpg">
+  <area shape="circle" coords="1050,228,60" alt="Coffee" href="coffe.jpg" onclick="mycoffe()">
 </map>
+
+
+
+
+
+
+<script>
+  function mybook(){
+    alert("You Click on Book")
+  }
+
+  function mycoffe(){
+    alert("You Click on Coffe")
+  }
+</script>
+
 </body>
 </html>
